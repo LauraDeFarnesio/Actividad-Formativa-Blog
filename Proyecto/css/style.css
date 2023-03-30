@@ -1,0 +1,92 @@
+
+html, body {
+    background-image: url("../assets/img/vallhala.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    }
+
+.textbox {
+    position: relative;
+    border: 2px solid #fbfbfb;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+   
+    }
+
+.btn-group{
+    width: 100%;
+}
+
+.flex-container{
+    display: flex;
+    background-color: rgba(128, 255, 0, 0);
+    padding: 10px;
+    justify-content: center;
+    position: relative;
+
+}
+
+.flex-container div{
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    
+}
+
+.inner-image{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  border-radius: 20%;
+  background-clip: content-box;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  visibility: visible;
+}
+
+
+.novelName{
+    display: flex;
+    visibility: visible;
+    position: relative;
+    color: rgb(252, 252, 252);
+    font-size: 100%;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+
+h1{
+    background-color: rgba(0, 0, 0, 0.403);
+    color:wheat
+}
+
+.img-thumbnail
+{
+    height: 450px;
+    width: 450px;
+    right: 35%;
+}
+
+.img-thumbnail:hover
+{
+    opacity: 0.2;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+
+}
